@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.profile-image {
+  height: 30vmin;
+  max-width: 50%;
+  max-height: auto;
+  border-radius: 50%;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
