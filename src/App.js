@@ -11,6 +11,7 @@ function App() {
       <header className="App-header">
       <ProfileImage/>
       <Greet/>
+      
       <DemoCarousel infiniteLoop={'True'}/>
       </header>
     </div>
