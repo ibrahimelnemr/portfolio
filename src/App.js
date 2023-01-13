@@ -1,18 +1,18 @@
-import logo from './logo.svg';
-import profileImg from './profile.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Greet from './components/Greet'
-import DemoCarousel from './components/DemoCarousel';
-import ProfileImage from './components/ProfileImage'
+import ProfileImage from './components/ProfileImage';
+import TopNavBar from './components/TopNavBar';
+import Carousel2 from './components/Carousel2';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <TopNavBar/>
+      <Carousel2/>
       <ProfileImage/>
-      <Greet/>
       
-      <DemoCarousel infiniteLoop={'True'}/>
+      
       </header>
     </div>
     
