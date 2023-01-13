@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
       <TopNavBar/>
-      <Carousel2/>
       <ProfileImage/>
+      <Carousel2/>
+      
       
       
       </header>
