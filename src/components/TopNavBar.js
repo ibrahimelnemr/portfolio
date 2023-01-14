@@ -10,11 +10,19 @@ function TopNavBar() {
         <Container className="w-100">
         <Navbar className ="column justify-content-end">
         <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
             
-            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
             
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+
+            <Nav.Link href="#skills">Skills</Nav.Link>
+
+            <Nav.Link href="#certifications">Certifications</Nav.Link>
+            
+            <Nav.Link href="#resume">Resume</Nav.Link>
+
+            <Nav.Link href="#contact">Contact</Nav.Link>
+
       </Nav>
       </Navbar>
       </Container>

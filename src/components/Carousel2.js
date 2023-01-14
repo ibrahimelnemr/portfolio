@@ -10,7 +10,7 @@ import weatherJournalAppImg from '../weather journal app.jpg'
 function Carousel2() {
     return(
         
-<Carousel className="w-50">
+<Carousel className="">
       <Carousel.Item>
         <img
           className="d-block w-100"
