@@ -4,9 +4,9 @@ function Contact() {
 
 return(
 
-<div id="contact" class="row">
+<div id="contact" class="row p-0 m-0">
 
-    <div  class="col-12 border">
+    <div  class="col-12">
         <div class="section-title">
         Contact
         </div>

@@ -9,26 +9,26 @@
 
 }
 
-.html, body {
+/* .html, body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-}
+} */
 
 .side {
 
 }
 .section-title {
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
-#about, #projects, #skills, #certifications, #resume, #contact, main {
+#about, #projects, #skills, #certifications, #resume, #contact {
   min-height: 40vh;
 }
 
 #main {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
 }
 
 #about, #skills, #resume {

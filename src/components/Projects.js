@@ -5,7 +5,7 @@ function Projects() {
 return(
 
 <>
-<div id="projects" class="row">
+<div id="projects" class="row p-0 m-0">
     <div  class="col-12 border">
         <div class="section-title">
         Projects
