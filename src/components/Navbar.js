@@ -5,39 +5,32 @@ function Navbar () {
         <>
 <div class="row container-fluid p-0 m-0">
   <div class="col">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-expand navbar-light">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" 
-              href="#">About</a>
+              href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" 
-              href="#">Certifications</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" 
-              href="#">Resume</a>
+              href="#certifications">Certifications</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" 
-              href="#">Contact</a>
+              href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" 
+              href="#contact">Contact</a>
             </li>
           </ul>
-        </div>
-      </div>
+        
     </nav>
   </div>
   
