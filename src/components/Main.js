@@ -16,8 +16,8 @@ return(
     <Projects/>
     <Skills/>
     <Certifications/>
-    <Resume/>
-    <Contact/>
+    {/* <Resume/>
+    <Contact/> */}
   
   </main>
 );
