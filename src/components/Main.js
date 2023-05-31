@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 function Main() {
 return(
-<main id="main" class="container-fluid d-flex flex-column min-vh-100 border">
+<main id="main" class="container-fluid d-flex flex-column min-vh-100 border p-0">
     <Navbar/>
     <About/>
     <Projects/>
