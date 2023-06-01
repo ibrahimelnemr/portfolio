@@ -18,6 +18,7 @@ return(
     <Certifications/>
     {/* <Resume/>
     <Contact/> */}
+    {/* <Footer/> */}
   
   </main>
 );
