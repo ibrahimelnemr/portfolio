@@ -12,7 +12,7 @@ return(
         </div>
     </div>
 
-    <div className="col-12 border">
+    <div className="col-12 ">
         <div class="p-2 m-2 h1 fw-light">
             Linear Algebra Website
         </div>
@@ -30,7 +30,7 @@ return(
         </div>
     </div>
 
-    <div className="col-12 border">
+    <div className="col-12 ">
         <div class="p-2 m-2 h1 fw-light">
             PropertyFinder Real Estate MySQL Database Project
 
@@ -53,7 +53,7 @@ return(
         </div>
     </div>
 
-    <div className="col-12 border">
+    <div className="col-12 ">
         <div class="p-2 m-2 h1 fw-light">
         SwiftUI Healthcare Front-End iOS App
         </div>
@@ -76,7 +76,7 @@ return(
     </div>
 
 
-    <div className="col-12 border">
+    <div className="col-12 ">
         <div class="p-2 m-2 h1 fw-light">
             R Stock Beta Calculator
         </div>
