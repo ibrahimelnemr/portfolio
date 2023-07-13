@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel2 from './Carousel2';
+import Card from './Card';
 function Projects() {
 
 return(
@@ -11,6 +12,7 @@ return(
             Projects
         </div>
     </div>
+    
 
     <div className="col-12 ">
         <div class="p-2 m-2 h1 fw-light">

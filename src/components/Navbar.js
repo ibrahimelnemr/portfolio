@@ -5,7 +5,7 @@ function Navbar () {
         <>
 <div class="row p-0 m-0">
   
-    <nav class="navbar navbar-expand navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-dark bg-dark fs-3">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" 
