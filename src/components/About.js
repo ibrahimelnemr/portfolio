@@ -17,7 +17,7 @@ return(
 
         <div className="d-flex justify-content-center m-5">
     
-            <img src={profileImg} className="profile-image" alt="logo" />
+            <img src={profileImg} Style="height: 40vh; max-width: auto; border-radius: 15%;" alt="logo" />
         </div>
     </div>
 
