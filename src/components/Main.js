@@ -18,8 +18,8 @@ return(
     <Skills/>
     <Certifications/>
 
-    {/* <Resume/>
-    <Contact/> */}
+    {/* <Resume/>*/}
+    {/* <Contact/>  */}
     {/* <Footer/> */}
   
   </main>

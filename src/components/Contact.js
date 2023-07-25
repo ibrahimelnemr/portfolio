@@ -4,14 +4,19 @@ function Contact() {
 
 return(
 
-<div id="contact" class="row p-0 m-0 bg-light">
-
+<>
+<div id="contact" class="row m-0  bg-dark text-light">
     <div class="col-12">
-            <div class="text-center p-2 m-2 display-4">
-                Contact
-            </div>
+        <div class="text-center p-2 m-2 display-4">
+            Get in Touch
         </div>
+    </div>
+
+    
 </div>
+
+
+</>
 
 );
 
