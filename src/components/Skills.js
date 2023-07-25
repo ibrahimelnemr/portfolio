@@ -19,34 +19,25 @@ return(
             {/* Card */}
 
           <div class="col-md">
-            <div class="card bg-light text-dark">
+            <div class="card bg-light text-dark fs-4" Style="min-height: 19em;">
               <div class="card-body">
                 <div class="h1 mb-3">
                 </div>
                 <h3 class="card-title mb-3">
                 Proficient
                 </h3>
-               
-                <ul>
-                    <li>
-                    Python
-                    </li>
-                    <li>
-                    JavaScript
-                    </li>
-                    <li>
-                    HTML & CSS
-                    </li>
-                    <li>
-                    React
-                    </li>
-                    <li>
-                    Bootstrap
-                    </li>
-                    <li>
-                    MySQL
-                    </li>
+                <ul class="list-group">
+                    <li class="list-group-item">Python</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">HTML & CSS</li>
+                    <li class="list-group-item">MySQL</li>
+                    <li class="list-group-item">React</li>
+                    <li class="list-group-item">Bootstrap</li>
                 </ul>
+               
+                
+
+                
                 
 
              
@@ -59,26 +50,20 @@ return(
 
           {/* Card */}
           <div class="col-md">
-            <div class="card bg-light text-dark">
+            <div class="card bg-light text-dark fs-4" Style="min-height: 19em;">
               <div class="card-body">
                 <div class="h1 mb-3"></div>
                 <h3 class="card-title mb-3">
                 Intermediate
                 </h3>
-                <ul>
-                    <li>
-                    Flask
-                    </li>
-                    <li>
-                    C++
-                    </li>
-                    <li>
-                    Unity 2D
-                    </li>
-                    <li>
-                    R
-                    </li>
+                <ul class="list-group">
+                    <li class="list-group-item">Flask</li>
+                    <li class="list-group-item">C++</li>
+                    <li class="list-group-item">Unity 2D</li>
+                    <li class="list-group-item">R</li>
+    
                 </ul>
+                
                 
               </div>
             </div>
@@ -89,8 +74,10 @@ return(
 
     </section>
 
+
     
 </div>
+
 </>
 
     );
