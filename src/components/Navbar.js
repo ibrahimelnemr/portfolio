@@ -5,33 +5,57 @@ function Navbar () {
         <>
 <div class="row p-0 m-0">
   
-    <nav class="navbar navbar-expand navbar-dark bg-dark fs-3">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" 
-              href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" 
-              href="#certifications">Certifications</a>
-            </li>
-            {/* <li class="nav-item">
-              <a class="nav-link" 
-              href="#resume">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" 
-              href="#contact">Contact</a>
-            </li> */}
-          </ul>
+<nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div className="container">
+    <a href="#" className="navbar-brand">
+    Ibrahim El Nemr | Portfolio
+    </a>
+
+    <button 
+    className="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse" data-bs-target="#navmenu"
+    >
+    <span className="navbar-toggler-icon"></span>
+    </button>
+
+    <div className="collapse navbar-collapse" id="navmenu">
+      <ul className="navbar-nav ms-auto">
+
+        {/* About */}
+        <li className="nav-item">
+          <a href="#about" className="nav-link">
+            About
+          </a>
+        </li>
+
+        {/* Projects */}
+        <li className="nav-item">
+          <a href="#projects" className="nav-link">
+            Projects
+          </a>
+        </li>
+
+        {/* Skills */}
+        <li className="nav-item">
+          <a href="#skills" className="nav-link">
+            Skills
+          </a>
+        </li>
         
-    </nav>
+        {/* Certifications */}
+        <li className="nav-item">
+          <a href="#certifications" className="nav-link">
+            Certifications
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  
+
+</nav>
   
   
 </div>
