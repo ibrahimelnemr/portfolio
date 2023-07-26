@@ -4,7 +4,7 @@ function Certifications() {
 return(
 
 <>
-<div id="certifications" class="row p-5 m-0 bg-light">
+<div id="certifications" class="row py-5 m-0 bg-light">
     <div class="col-12">
         <div class="text-center p-2 m-2 display-4">
             Certifications
@@ -14,7 +14,7 @@ return(
     <section class="p-5">
       <div class="container">
         
-        <div class="row g-4 p-4">
+        <div class="row py-4">
 
             {/* Card */}
 
@@ -40,7 +40,7 @@ return(
           </div>
           </div> {/* End of Row */}
 
-          <div class="row g-4 p-4">
+          <div class="row py-4">
 
           {/* Card */}
           <div class="col-md">
