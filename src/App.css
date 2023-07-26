@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.logo {
+  max-width: 10vw;
+  max-height: auto;
+}
 
 #about, #projects, #skills, #certifications, #resume {
   min-height: 40vh;
@@ -10,10 +14,6 @@
 #about, #skills, #resume {
   /* background-color: #E9ECEF; */
   background-color: rgb(233, 236, 239);
-}
-
-.profile-img {
-  max-width: 20vw; 
 }
 
   /* Default font size for all screen sizes */

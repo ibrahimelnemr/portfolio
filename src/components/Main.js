@@ -5,9 +5,8 @@ import Skills from './Skills'
 import Certifications from './Certifications'
 import Resume from './Resume'
 import Contact from './Contact'
-import Carousel2 from './Carousel2';import Navbar from './Navbar';
+import Navbar from './Navbar';
 import Footer from './Footer';
-import Card from './Card';
 
 function Main() {
 return(

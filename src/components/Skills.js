@@ -1,4 +1,23 @@
 import React from 'react'
+import python_logo from '../images/python.png';
+import javascript_logo from '../images/javascript.png';
+import javascript_logo2 from '../images/javascript2.png';
+import bootstrap_logo from '../images/bootstrap.png';
+import cpp_logo from '../images/cpp.png';
+import cpp_logo2 from '../images/cpp2.png';
+import flask_logo from '../images/flask.png';
+import git_logo from '../images/git.png';
+import css_logo from '../images/css.png';
+import html_logo from '../images/html.png';
+import node_logo from '../images/node.png';
+import r_logo from '../images/r.png';
+import react_logo from '../images/react.png';
+import sql_logo from '../images/sql.png';
+import typescript_logo from '../images/typescript.png';
+import typescript_logo2 from '../images/typescript2.png';
+import unity_logo from '../images/unity.png';
+import node_logo2 from '../images/node2.png';
+
 function Skills() {
 
 return(
@@ -11,71 +30,40 @@ return(
         </div>
     </div>
 
-    <section class="p-5">
-      <div class="container">
-        
-        <div class="row py-4">
+    <div class="col-12">
+     
+      
+      <div className="row m-3 g-5">
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={html_logo} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={css_logo} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={javascript_logo2} alt="" />
+        </div>
 
-            {/* Card */}
-
-          <div class="col-md pb-4">
-            <div class="card bg-light text-dark fs-4" Style="min-height: 19em;">
-              <div class="card-body">
-                <div class="h1 mb-3">
-                </div>
-                <h3 class="card-title mb-3">
-                Proficient
-                </h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item">JavaScript</li>
-                    <li class="list-group-item">HTML & CSS</li>
-                    <li class="list-group-item">MySQL</li>
-                    <li class="list-group-item">React</li>
-                    <li class="list-group-item">Bootstrap</li>
-                </ul>
-               
-                
-
-                
-                
-
-             
-              </div>
-            </div>
-          </div>
-          
-
-          
-
-          {/* Card */}
-          <div class="col-md">
-            <div class="card bg-light text-dark fs-4" Style="min-height: 19em;">
-              <div class="card-body">
-                <div class="h1 mb-3"></div>
-                <h3 class="card-title mb-3">
-                Intermediate
-                </h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Flask</li>
-                    <li class="list-group-item">C++</li>
-                    <li class="list-group-item">Unity 2D</li>
-                    <li class="list-group-item">R</li>
-    
-                </ul>
-                
-                
-              </div>
-            </div>
-          </div>
-          </div>  {/* End of Row */}
-          {/* Card */}
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={bootstrap_logo} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={react_logo} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={sql_logo} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={node_logo2} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={typescript_logo2} alt="" />
+        </div>
+        <div className="col-4 text-center">
+          <img class="img-fluid logo" src={cpp_logo2} alt="" />
+        </div>
       </div>
-
-    </section>
-
-
-    
+    </div>
 </div>
 
 </>
