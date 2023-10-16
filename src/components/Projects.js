@@ -22,8 +22,8 @@ return(
         <p class="card-text">
         Created website for displaying course materials for Linear Algebra professor with Bootstrap 5 and React.
         </p>
-        <a href="https://github.com/iwelnemr/linear-algebra-website" class="btn btn-primary">View on Github</a>
       </div>
+        <a href="https://github.com/ibrahimelnemr/linear-algebra-website" class="btn btn-primary">View on Github</a>
     </div>
   </div>
   
@@ -40,7 +40,7 @@ return(
         Web scraping, database creation and data access of a real estate website with BeautifulSoup, MySQL and Flask.
         
         </p>
-        <a href="https://github.com/iwelnemr/property-finder-db" class="btn btn-primary">View on Github</a>
+        <a href="https://github.com/ibrahimelnemr/property-finder-db" class="btn btn-primary">View on Github</a>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ return(
         <p class="card-text">
         Created Front-End app prototype for iOS healthcare app using Figma and SwiftUI.
         </p>
-        <a href="https://github.com/iwelnemr/wecare-swiftui-app" class="btn btn-primary">View on Github</a>
+        <a href="https://github.com/ibrahimelnemr/wecare-swiftui-app" class="btn btn-primary">View on Github</a>
       </div>
     </div>
 </div>
