@@ -16,23 +16,24 @@ function Contact()
                     </div>
                 </div>
 
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
+
+                <div class="col-12 text-center d-flex align-items-center justify-content-center">
+
+                    <div class="mx-3">
+                        <a href="https://github.com/ibrahimelnemr/">
+                            <img class="img-fluid contact-logo" src={ linkedin_logo } alt="" />
+                        </a>
+                    </div>
+
+
+                    <div class="mx-3">
+                        <a href="https://github.com/ibrahimelnemr/">
+                            <img class="img-fluid contact-logo" src={ github_logo2 } alt="" />
+                        </a>
+                    </div>
+
 
                 </div>
-
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://github.com/ibrahimelnemr/">
-                        <img class="img-fluid contact-logo" src={ linkedin_logo } alt="" />
-                    </a>
-                </div>
-
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://github.com/ibrahimelnemr/">
-                        <img class="img-fluid contact-logo" src={ github_logo2 } alt="" />
-                    </a>
-                </div>
-
-                <div class="col-3 text-center d-flex align-items-center justify-content-center"></div>
 
                 <div class="col-12">
                     <div class="text-center p-2 mb-5 m-2 fs-4 fw-light">

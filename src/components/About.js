@@ -16,7 +16,7 @@ return(
         <img src={profileImg} class="img-fluid" Style="border-radius: 15%;" alt="logo" />
     </div>
 
-    <div class="col-12 d-flex my-auto col-lg-9 fs-5 d-flex text-center">
+    <div class="col-12 d-flex my-auto col-lg-9 fs-4 d-flex text-center">
         <div className="m-5 fw-light">
             
                 Hi! I'm Ibrahim and I am currently doing undergraduate studies in Economics with a minor in Computer Science at the American University in Cairo.
