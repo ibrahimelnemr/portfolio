@@ -27,7 +27,7 @@ return(
           <br/>
           NodeJS & API access
           </p>
-          <a href="https://graduation.udacity.com/confirm/PJ42XA24" class="btn btn-primary">View Certification</a>
+          <a href="https://graduation.udacity.com/confirm/PJ42XA24" target="_blank" class="btn btn-primary">View Certification</a>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ return(
           C# for game logic
 
           </p>
-          <a href="https://drive.google.com/file/d/1djqL4j2jHbNh9_B0nZlHq3312lJAVokw/view" class="btn btn-primary">View Certification</a>
+          <a href="https://drive.google.com/file/d/1djqL4j2jHbNh9_B0nZlHq3312lJAVokw/view" target="_blank" class="btn btn-primary">View Certification</a>
         </div>
       </div>
   

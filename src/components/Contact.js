@@ -20,14 +20,14 @@ function Contact()
                 <div class="col-12 text-center d-flex align-items-center justify-content-center">
 
                     <div class="mx-3">
-                        <a href="https://github.com/ibrahimelnemr/">
+                        <a href="https://www.linkedin.com/in/ibrahimelnemr/" target="_blank">
                             <img class="img-fluid contact-logo" src={ linkedin_logo } alt="" />
                         </a>
                     </div>
 
 
                     <div class="mx-3">
-                        <a href="https://github.com/ibrahimelnemr/">
+                        <a href="https://github.com/ibrahimelnemr/" target="_blank">
                             <img class="img-fluid contact-logo" src={ github_logo2 } alt="" />
                         </a>
                     </div>
