@@ -22,8 +22,8 @@ return(
         <p class="card-text">
         Created website for displaying course materials for Linear Algebra professor with Bootstrap 5 and React.
         </p>
-      </div>
         <a href="https://github.com/ibrahimelnemr/linear-algebra-website" class="btn btn-primary">View on Github</a>
+      </div>
     </div>
   </div>
   
