@@ -18,7 +18,7 @@ return(
     <Certifications/>
 
     {/* <Resume/>*/}
-    {/* <Contact/>  */}
+    <Contact/> 
     {/* <Footer/> */}
   
   </main>

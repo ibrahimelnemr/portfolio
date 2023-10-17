@@ -2,6 +2,51 @@
   text-align: center;
 }
 
+.profile-img {
+  max-width: 75%;
+  height: auto;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.contact-logo {
+  max-width: 50px;
+  width: 100%;
+  max-height: auto;
+  margin: 10px;
+}
+
+.card:hover {
+  background-color: rgb(233, 236, 239) !important;
+  transform: scale(1.05);
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #282c34;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .logo {
   max-width: 100px;
   width: 100%;
@@ -9,34 +54,40 @@
   margin: 10px;
 }
 
-#about, #projects, #skills, #certifications, #resume {
+#about,
+#projects,
+#skills,
+#certifications,
+#resume {
   min-height: 40vh;
 }
 
-#about, #skills, #resume {
+#about,
+#skills,
+#resume {
   /* background-color: #E9ECEF; */
   background-color: rgb(233, 236, 239);
 }
 
-  /* Default font size for all screen sizes */
+/* Default font size for all screen sizes */
 
-  /* Custom font size for small screens (up to 576px) */
-  @media (max-width: 576px) {
-    .custom-font-size {
-      font-size: 14px;
-    }
+/* Custom font size for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .custom-font-size {
+    font-size: 14px;
   }
+}
 
-  /* Custom font size for medium screens (between 577px and 768px) */
-  @media (min-width: 577px) and (max-width: 768px) {
-    .custom-font-size {
-      font-size: 18px;
-    }
+/* Custom font size for medium screens (between 577px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .custom-font-size {
+    font-size: 18px;
   }
+}
 
-  /* Custom font size for large screens (769px and above) */
-  @media (min-width: 769px) {
-    .custom-font-size {
-      font-size: 20px;
-    }
+/* Custom font size for large screens (769px and above) */
+@media (min-width: 769px) {
+  .custom-font-size {
+    font-size: 20px;
   }
+}

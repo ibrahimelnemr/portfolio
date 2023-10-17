@@ -28,9 +28,9 @@ function Skills()
   return (
 
     <>
-      <div id="skills" class="row py-5 m-0">
+      <div id="skills" class="row py-5 m-0 bg-light">
         <div class="col-12">
-          <div class="text-center p-2 m-2 display-4">
+          <div class="text-center p-2 m-2 display-6">
             Skills
           </div>
         </div>

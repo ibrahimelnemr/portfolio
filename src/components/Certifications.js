@@ -6,13 +6,13 @@ return(
 <>
 <div id="certifications" class="row p-5 m-0 bg-light g-4">
     <div class="col-12">
-        <div class="text-center p-2 m-2 display-4">
+        <div class="text-center p-2 m-2 display-6">
             Certifications
         </div>
     </div>
 
     <div class="col-12">
-      <div class="card bg-light text-dark">
+      <div class="card border bg-light text-dark">
         <div class="card-body">
           <div class="h1 mb-3">
           </div>
@@ -37,7 +37,7 @@ return(
 
         
     <div class="col-12">
-      <div class="card bg-light text-dark">
+      <div class="card border bg-light text-dark">
         <div class="card-body">
           <div class="h1 mb-3"></div>
           <h3 class="card-title mb-3">
