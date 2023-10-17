@@ -31,11 +31,8 @@ return(
         </div>
       </div>
     </div>
-    
 
-        
 
-        
     <div class="col-12">
       <div class="card border bg-light text-dark">
         <div class="card-body">
