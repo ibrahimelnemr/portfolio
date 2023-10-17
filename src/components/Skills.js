@@ -17,58 +17,82 @@ import typescript_logo from '../images/typescript.png';
 import typescript_logo2 from '../images/typescript2.png';
 import unity_logo from '../images/unity.png';
 import node_logo2 from '../images/node2.png';
+import angular_logo from '../images/angular_logo.png';
+import postgresql_logo from '../images/postgresql_logo.png';
+import express_logo from '../images/express.png';
+import django_logo from '../images/django_logo3.png';
 
-function Skills() {
+function Skills()
+{
 
-return(
+  return (
 
-<>
-<div id="skills" class="row py-5 m-0">
-    <div class="col-12">
-        <div class="text-center p-2 m-2 display-4">
+    <>
+      <div id="skills" class="row py-5 m-0">
+        <div class="col-12">
+          <div class="text-center p-2 m-2 display-4">
             Skills
-        </div>
-    </div>
-
-    <div class="col-12">
-     
-      
-      <div className="row m-3 g-5">
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={html_logo} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={css_logo} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={javascript_logo2} alt="" />
+          </div>
         </div>
 
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={bootstrap_logo} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={react_logo} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={sql_logo} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={node_logo2} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={typescript_logo2} alt="" />
-        </div>
-        <div className="col-4 text-center">
-          <img class="img-fluid logo" src={cpp_logo2} alt="" />
+        <div class="col-12">
+
+          <div className="row d-flex justify-content-center row-cols-auto m-3 g-5">
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ postgresql_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ angular_logo } alt="" />
+            </div>
+
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ express_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ node_logo2 } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ django_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ sql_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ react_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ bootstrap_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ python_logo } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ javascript_logo } alt="" />
+            </div>
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ typescript_logo2 } alt="" />
+            </div>
+
+            <div className="col text-center d-flex align-items-center">
+              <img class="img-fluid logo" src={ cpp_logo2 } alt="" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-</div>
 
-</>
+    </>
 
-    );
+  );
 
 }
 
