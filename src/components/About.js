@@ -19,7 +19,7 @@ return(
     <div class="col-12 d-flex my-auto col-lg-9 fs-4 d-flex text-center">
         <div className="m-5 fw-light">
             
-                Hi! I'm Ibrahim and I am currently doing undergraduate studies in Economics with a minor in Computer Science at the American University in Cairo.
+                Hi! I'm Ibrahim and I am currently doing undergraduate studies at the American University in Cairo. I am passionate about full-stack development and currently looking for opportunities in the industry. 
             
         </div>
     </div>
