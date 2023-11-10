@@ -40,9 +40,9 @@ function Projects()
                 Syllabus Analysis Query Tool
               </h3>
               <p class="card-text">
-              A demo database query tool for course syllabi and the skills associated each course, as a tool intended for undergraduate students. Created with Angular, ostgresql, and Express.
+              A demo database query tool for course syllabi and the skills associated each course, as a tool intended for undergraduate students. Created with Angular, Postgresql, and Express.
               </p>
-              <a href="https://github.com/ibrahimelnemr/property-finder-db" target="_blank" class="btn btn-outline-secondary">
+              <a href="https://github.com/ibrahimelnemr/syllabus-analysis-query-tool" target="_blank" class="btn btn-outline-secondary">
                 <i className="fab fa-github">
                   </i> View on Github</a>
             </div>
