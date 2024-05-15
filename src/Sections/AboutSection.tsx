@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import profileImg from "./Images/profile.jpg";
+import profileImg from "../Images/profile.jpg";
 
 interface AboutSectionProps {}
 
