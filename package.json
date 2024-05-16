@@ -20,10 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node dist/index.js",
-    "start:dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "tsc",
-    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.tsx",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
