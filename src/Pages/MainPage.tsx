@@ -1,8 +1,8 @@
 import React from 'react';
 import About from '../Sections/AboutSection';
-import Projects from '../Sections/ProjectsSection';
+import Projects from '../Sections/Projects';
 import Skills from '../Sections/SkillsSection';
-import Certifications from '../Sections/CertificationsSection';
+import Certifications from '../Sections/Certifications';
 import Resume from '../Sections/ResumeSection';
 import Contact from '../Sections/ContactSection';
 import Navbar from '../Components/Navbar';
@@ -13,7 +13,7 @@ const MainPage = () => {
     <main id="main" className="container-fluid d-flex flex-column min-vh-100 p-0">
       <Navbar />
       <About />
-      <Projects />
+      <Projects/>
       <Skills />
       <Certifications />
 
