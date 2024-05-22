@@ -42,7 +42,7 @@ const CertificationCards: ISectionCard[] = [
           ],
         link: "https://graduation.udacity.com/confirm/e/f5e9b23e-094a-11ee-9036-0f71d7d20cd8"
     }
-]
+];
 
 
 export {
