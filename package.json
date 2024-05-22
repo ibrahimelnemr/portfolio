@@ -21,6 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:dev": "node dist/index.js",
     "build": "tsc",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

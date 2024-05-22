@@ -1,11 +1,10 @@
 import React from "react";
+import githubLogo from "../Images/github2.png";
+import linkedinLogo from "../Images/linkedin.png";
 
-interface ContactSectionProps {}
+interface ContactProps {}
 
-const ContactSection: React.FunctionComponent<ContactSectionProps> = () => {
-
-    const githubLogoPath = "../images/github2.png";
-    const linkedinLogoPath = "../images/linkedin.png";
+const Contact: React.FunctionComponent<ContactProps> = () => {
 
   return (
     <>
@@ -25,7 +24,7 @@ const ContactSection: React.FunctionComponent<ContactSectionProps> = () => {
             >
               <img
                 className="img-fluid contact-logo"
-                src={linkedinLogoPath}
+                src={linkedinLogo}
                 alt=""
               />
             </a>
@@ -35,7 +34,7 @@ const ContactSection: React.FunctionComponent<ContactSectionProps> = () => {
             <a href="https://github.com/ibrahimelnemr/" target="_blank">
               <img
                 className="img-fluid contact-logo"
-                src={githubLogoPath}
+                src={githubLogo}
                 alt=""
               />
             </a>
@@ -63,4 +62,4 @@ const ContactSection: React.FunctionComponent<ContactSectionProps> = () => {
   );
 };
 
-export default ContactSection;
+export default Contact;
