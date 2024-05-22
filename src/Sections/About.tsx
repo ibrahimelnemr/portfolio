@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import profileImg from "../Images/profile.jpg";
+import Section from "../Components/Section";
 
-interface AboutSectionProps {}
+interface AboutProps {}
 
-const AboutSection: React.FunctionComponent<AboutSectionProps> = () => {
-    return (
+const About: React.FunctionComponent<AboutProps> = () => {
+  return (
     <>
-      <div className="row bg-light p-5 m-0">
-        <div className="col-12 pb-5">
-          <div className="text-center display-6">About</div>
-        </div>
-
+      <Section sectionName="About">
         <div className="col-12 d-flex my-auto col-lg-3 d-lg-block d-none">
           <img
             src={profileImg}
@@ -27,9 +24,9 @@ const AboutSection: React.FunctionComponent<AboutSectionProps> = () => {
             development and currently looking for opportunities in the industry.
           </div>
         </div>
-      </div>
+      </Section>
     </>
   );
 };
 
-export default AboutSection;
+export default About;

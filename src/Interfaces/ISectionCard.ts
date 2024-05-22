@@ -6,3 +6,5 @@ interface ISectionCard {
     linkText?: string;
     isGithubLink?: boolean;
 }
+
+export default ISectionCard;

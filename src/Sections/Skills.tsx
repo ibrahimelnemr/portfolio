@@ -1,4 +1,7 @@
 import React from "react";
+import Section from "../Components/Section";
+
+// import images
 import python_logo from "../Images/python.png";
 import javascript_logo from "../Images/javascript.png";
 import javascript_logo2 from "../Images/javascript2.png";
@@ -22,10 +25,9 @@ import postgresql_logo from "../Images/postgresql_logo.png";
 import express_logo from "../Images/express.png";
 import django_logo from "../Images/django_logo3.png";
 
-interface SkillsSectionProps {}
+interface SkillsProps {}
 
-const SkillsSection: React.FunctionComponent<SkillsSectionProps> = () => {
-  
+const Skills: React.FunctionComponent<SkillsProps> = () => {
   // const python_logo = "../Images/python.png";
   // const javascript_logo = "../Images/javascript.png";
   // const javascript_logo2 = "../Images/javascript2.png";
@@ -51,11 +53,7 @@ const SkillsSection: React.FunctionComponent<SkillsSectionProps> = () => {
 
   return (
     <>
-      <div id="skills" className="row py-5 m-0 bg-light">
-        <div className="col-12">
-          <div className="text-center p-2 m-2 display-6">Skills</div>
-        </div>
-
+      <Section sectionName="Skills">
         <div className="col-12">
           <div className="row d-flex justify-content-center row-cols-auto m-3 g-5">
             <div className="col text-center d-flex align-items-center">
@@ -106,9 +104,9 @@ const SkillsSection: React.FunctionComponent<SkillsSectionProps> = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Section>
     </>
   );
 };
 
-export default SkillsSection;
+export default Skills;

@@ -1,7 +1,7 @@
 import React from "react";
-interface ResumeSectionProps {}
+interface ResumeProps {}
 
-const ResumeSection: React.FunctionComponent<ResumeSectionProps> = () => {
+const Resume: React.FunctionComponent<ResumeProps> = () => {
   return (
     <>
       <div id="resume" className="row p-0 m-0">
@@ -13,4 +13,4 @@ const ResumeSection: React.FunctionComponent<ResumeSectionProps> = () => {
   );
 }
 
-export default ResumeSection;
+export default Resume;
