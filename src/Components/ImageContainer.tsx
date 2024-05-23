@@ -11,7 +11,8 @@ const ImageContainer: React.FunctionComponent<ImageContainerProps> = (
   return (
     <>
       <Col xs={12}>
-        <Row className="d-flex justify-content-center row-cols-auto m-3 g-5">
+        <Row className="d-flex justify-content-center row-cols-auto g-5">
+          {/* m-3 */}
           {props.children}
         </Row>
       </Col>

@@ -1,3 +1,31 @@
+$background-dark: #121212;
+$background-darker: #1C1C1C;
+$background-medium-dark: #2E2E2E;
+$background-gray-dark: #333333;
+$background-gray: #242424;
+
+$text-white: #FFFFFF;
+$text-light-gray: #E0E0E0;
+$text-medium-light-gray: #CCCCCC;
+$text-darker-gray: #B3B3B3;
+$text-gray: #AAAAAA;
+$text-balanced-light-gray: #BBBBBB;
+$text-very-light-gray: #F1F1F1;
+
+.main-page {
+  
+}
+
+.certification-card {
+
+}
+
+.image-container {
+  
+}
+
+.proj
+
 .App {
   text-align: center;
 }
@@ -68,23 +96,18 @@
   background-color: rgb(233, 236, 239);
 }
 
-/* Default font size for all screen sizes */
-
-/* Custom font size for small screens (up to 576px) */
 @media (max-width: 576px) {
   .custom-font-size {
     font-size: 14px;
   }
 }
 
-/* Custom font size for medium screens (between 577px and 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
   .custom-font-size {
     font-size: 18px;
   }
 }
 
-/* Custom font size for large screens (769px and above) */
 @media (min-width: 769px) {
   .custom-font-size {
     font-size: 20px;
