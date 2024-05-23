@@ -1,5 +1,7 @@
 import React from "react";
 import Section from "../Components/Section";
+import SkillsImage from "../Components/SkillsImage";
+import ImageContainer from "../Components/ImageContainer";
 
 // import images
 import python_logo from "../Images/python.png";
@@ -28,82 +30,24 @@ import django_logo from "../Images/django_logo3.png";
 interface SkillsProps {}
 
 const Skills: React.FunctionComponent<SkillsProps> = () => {
-  // const python_logo = "../Images/python.png";
-  // const javascript_logo = "../Images/javascript.png";
-  // const javascript_logo2 = "../Images/javascript2.png";
-  // const bootstrap_logo = "../Images/bootstrap.png";
-  // const cpp_logo = "../Images/cpp.png";
-  // const cpp_logo2 = "../Images/cpp2.png";
-  // const flask_logo = "../Images/flask.png";
-  // const git_logo = "../Images/git.png";
-  // const css_logo = "../Images/css.png";
-  // const html_logo = "../Images/html.png";
-  // const node_logo = "../Images/node.png";
-  // const r_logo = "../Images/r.png";
-  // const react_logo = "../Images/react.png";
-  // const sql_logo = "../Images/sql.png";
-  // const typescript_logo = "../Images/typescript.png";
-  // const typescript_logo2 = "../Images/typescript2.png";
-  // const unity_logo = "../Images/unity.png";
-  // const node_logo2 = "../Images/node2.png";
-  // const angular_logo = "../Images/angular_logo.png";
-  // const postgresql_logo = "../Images/postgresql_logo.png";
-  // const express_logo = "../Images/express.png";
-  // const django_logo = "../Images/django_logo3.png";
 
   return (
     <>
       <Section sectionName="Skills">
-        <div className="col-12">
-          <div className="row d-flex justify-content-center row-cols-auto m-3 g-5">
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={postgresql_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={angular_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={express_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={node_logo2} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={django_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={sql_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={react_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={bootstrap_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={python_logo} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={javascript_logo} alt="" />
-            </div>
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={typescript_logo2} alt="" />
-            </div>
-
-            <div className="col text-center d-flex align-items-center">
-              <img className="img-fluid logo" src={cpp_logo2} alt="" />
-            </div>
-          </div>
-        </div>
+        <ImageContainer>
+          <SkillsImage imageSrc={postgresql_logo} />
+          <SkillsImage imageSrc={angular_logo} />
+          <SkillsImage imageSrc={express_logo} />
+          <SkillsImage imageSrc={node_logo2} />
+          <SkillsImage imageSrc={django_logo} />
+          <SkillsImage imageSrc={sql_logo} />
+          <SkillsImage imageSrc={react_logo} />
+          <SkillsImage imageSrc={bootstrap_logo} />
+          <SkillsImage imageSrc={python_logo} />
+          <SkillsImage imageSrc={javascript_logo} />
+          <SkillsImage imageSrc={typescript_logo2} />
+          <SkillsImage imageSrc={cpp_logo2} />
+        </ImageContainer>
       </Section>
     </>
   );

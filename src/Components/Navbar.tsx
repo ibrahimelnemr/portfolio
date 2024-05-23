@@ -1,11 +1,12 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 
 interface NavbarProps {}
 
 const Navbar: React.FunctionComponent<NavbarProps> = () => {
   return (
     <>
-      <div className="row p-0 m-0">
+    <Row>
         <nav className="navbar navbar-expand-lg bg-light navbar-light">
           <div className="container">
             <a href="#" className="navbar-brand nav-item">
@@ -61,7 +62,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = () => {
             </div>
           </div>
         </nav>
-      </div>
+      </Row>
     </>
   );
 }
