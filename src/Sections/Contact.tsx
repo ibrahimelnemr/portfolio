@@ -1,22 +1,19 @@
 import React from "react";
 import githubLogo from "../Images/github2.png";
 import linkedinLogo from "../Images/linkedin.png";
+import Section from "../Components/Section";
+import { Row, Col } from "react-bootstrap";
 
 interface ContactProps {}
 
 const Contact: React.FunctionComponent<ContactProps> = () => {
-
   return (
     <>
-      <div
-        id="contact"
-        className="row m-0  bg-light bg-opacity-75 text-dark d-flex align-items-center"
-      >
-        <div className="col-12">
-          <div className="text-center p-2 mb-5 m-2 display-6">Contact</div>
-        </div>
-
-        <div className="col-12 text-center d-flex align-items-center justify-content-center">
+      <Section sectionName="Contact">
+        <Col
+          xs={12}
+          className="text-center d-flex align-items-center justify-content-center"
+        >
           <div className="mx-3">
             <a
               href="https://www.linkedin.com/in/ibrahimelnemr/"
@@ -32,16 +29,11 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
 
           <div className="mx-3">
             <a href="https://github.com/ibrahimelnemr/" target="_blank">
-              <img
-                className="img-fluid contact-logo"
-                src={githubLogo}
-                alt=""
-              />
+              <img className="img-fluid contact-logo" src={githubLogo} alt="" />
             </a>
           </div>
-        </div>
-
-        <div className="col-12">
+        </Col>
+        <Col xs={12}>
           <div className="text-center p-2 mb-5 m-2 fs-4 fw-light">
             I am currently searching for opportunities in full-stack or back-end
             development. If you'd like to get in touch, feel free to connect on
@@ -54,10 +46,8 @@ const Contact: React.FunctionComponent<ContactProps> = () => {
             </a>
             .
           </div>
-        </div>
-
-        <div className="col-12 mb-4"></div>
-      </div>
+        </Col>
+      </Section>
     </>
   );
 };

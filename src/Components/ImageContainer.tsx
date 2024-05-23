@@ -1,7 +1,8 @@
 import React, { ReactNode } from "react";
+import { Row, Col } from "react-bootstrap";
 
 interface ImageContainerProps {
-    children: ReactNode;
+  children: ReactNode;
 }
 
 const ImageContainer: React.FunctionComponent<ImageContainerProps> = (
@@ -9,11 +10,11 @@ const ImageContainer: React.FunctionComponent<ImageContainerProps> = (
 ) => {
   return (
     <>
-      <div className="col-12">
-        <div className="row d-flex justify-content-center row-cols-auto m-3 g-5">
-            { props.children }
-        </div>
-      </div>
+      <Col xs={12}>
+        <Row className="d-flex justify-content-center row-cols-auto m-3 g-5">
+          {props.children}
+        </Row>
+      </Col>
     </>
   );
 };

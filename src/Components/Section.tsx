@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import SectionTitle from "./SectionTitle";
+import { Row, Col } from "react-bootstrap";
 
 interface SectionProps {
   children: ReactNode;
@@ -8,12 +9,10 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = (props) => {
   return (
-    <div className="row p-5 m-0 bg-light g-4">
-        <SectionTitle
-            sectionName={props.sectionName}
-        />
-        { props.children }
-    </div>
+      <Row className="p-5 m-0 bg-light g-4">
+        <SectionTitle sectionName={props.sectionName} />
+        {props.children}
+      </Row>
   );
 };
 
