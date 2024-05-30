@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ibrahimelnemr.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://ibrahimelnemr.github.io/portfolio-site",
+  "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:dev": "node dist/index.js",
+    "start:dev": "node build/index.js",
     "build": "tsc",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
