@@ -5,6 +5,7 @@ interface CertificationCardProps {
   cardTitle: string;
   bulletPoints: string[];
   link: string;
+  key: number;
 }
 
 const CertificationCard: React.FunctionComponent<CertificationCardProps> = (
@@ -12,22 +13,19 @@ const CertificationCard: React.FunctionComponent<CertificationCardProps> = (
 ) => {
   return (
     <Col sm={12} md={6} lg={6}>
-      <Card className="shadow-lg p-3 mb-5 bg-light border">
+      <Card className="shadow-lg p-3 mb-5 bg-light border" key={props.key}>
         <Card.Body>
           <div className="h1 mb-3"></div>
           <h3 className="card-title mb-3">{props.cardTitle}</h3>
-          <p className="card-text">
-            <>
-              <ul>
-                {props.bulletPoints.map((bulletPoint) => (
-                  <li>{bulletPoint}</li>
-                ))}
-              </ul>
-            </>
-          </p>
+          <ul className="card-text">
+            {props.bulletPoints.map((bulletPoint, index) => (
+              <li key={index}>{bulletPoint}</li>
+            ))}
+          </ul>
           <a
             href={props.link}
             target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-outline-secondary"
           >
             View Certification
