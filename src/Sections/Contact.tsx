@@ -1,7 +1,7 @@
 import React from "react";
 import githubLogo from "../Images/github2.png";
 import linkedinLogo from "../Images/linkedin.png";
-import Section from "../Components/Section";
+import Section from "../components/Section";
 import { Row, Col } from "react-bootstrap";
 
 interface ContactProps {}

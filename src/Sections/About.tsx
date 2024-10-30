@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import profileImg from "../Images/profile.jpg";
-import Section from "../Components/Section";
+import Section from "../components/Section";
 import { Row, Col } from "react-bootstrap";
 
 interface AboutProps {}

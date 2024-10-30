@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../Components/Section";
-import SkillsImage from "../Components/SkillsImage";
-import ImageContainer from "../Components/ImageContainer";
+import Section from "../components/Section";
+import SkillsImage from "../components/SkillsImage";
+import ImageContainer from "../components/ImageContainer";
 
 // import images
 import python_logo from "../Images/python.png";
