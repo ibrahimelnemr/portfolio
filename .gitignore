@@ -11,8 +11,6 @@
 # production
 /build
 /dist
-.next
-.out
 
 # misc
 .DS_Store
@@ -24,6 +22,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Next.js static and output directories
-/public/static

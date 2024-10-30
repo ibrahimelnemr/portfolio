@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../components/Section";
-import CertificationCard from "../components/CertificationCard";
-import ISectionCard from "../interfaces/ISectionCard";
+import Section from "../Components/Section";
+import CertificationCard from "../Components/CertificationCard";
+import ISectionCard from "../Interfaces/ISectionCard";
 
 interface CertificationsProps {
   cards?: ISectionCard[];
@@ -11,9 +11,8 @@ const Certifications: React.FC<CertificationsProps> = (props) => {
   return (
     <Section sectionName="Certifications">
       {props.cards
-        ? props.cards.map((card, index) => (
+        ? props.cards.map((card) => (
             <CertificationCard
-              key={index}
               cardTitle={card.title}
               bulletPoints={card.bulletPoints ?? []}
               link={card.link ?? ""}

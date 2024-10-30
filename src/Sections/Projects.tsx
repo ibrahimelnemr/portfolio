@@ -1,8 +1,8 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
-import Section from "../components/Section";
-import ProjectCard from "../components/ProjectCard";
-import ISectionCard from "../interfaces/ISectionCard";
+import Section from "../Components/Section";
+import ProjectCard from "../Components/ProjectCard";
+import ISectionCard from "../Interfaces/ISectionCard";
 
 interface ProjectsProps {
   cards?: ISectionCard[];
@@ -14,9 +14,8 @@ const Projects: React.FunctionComponent<ProjectsProps> = (props) => {
       <>
         {props.cards ?
         
-        props.cards.map((card, index) => (
+        props.cards.map((card) => (
           <ProjectCard
-            key={index}
             cardTitle={card.title}
             cardText={card.text ?? ""}
             githubLink={card.link ?? ""}

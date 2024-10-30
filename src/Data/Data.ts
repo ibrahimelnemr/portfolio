@@ -1,4 +1,4 @@
-import ISectionCard from "../interfaces/ISectionCard"
+import ISectionCard from "../Interfaces/ISectionCard"
 
 const ProjectCards: ISectionCard[] = [
     {
