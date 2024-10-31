@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { Row, Col } from "react-bootstrap";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./sectionTitle";
 
 export default function Section({
   children,

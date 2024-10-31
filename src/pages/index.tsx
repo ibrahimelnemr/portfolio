@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import 'bootstrap/dist/js/bootstrap.bundle.min';
-import About from "../sections/About";
-import Projects from "../sections/Projects";
-import Skills from "../sections/Skills";
-import Certifications from "../sections/Certifications";
-import Resume from "../sections/Resume";
-import Contact from "../sections/Contact";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import About from "../components/aboutSection";
+import Projects from "../components/projectsSection";
+import Skills from "../components/skillsSection";
+import Certifications from "../components/certificationsSection";
+import Contact from "../components/contactSection";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import {
   ProjectCards,
   CertificationCards,

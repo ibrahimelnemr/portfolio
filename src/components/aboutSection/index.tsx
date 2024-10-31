@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Section from "../components/Section";
+import Section from "../../components/section";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import { ProfileImageUrl, AboutText } from "../data/Data";
+import { ProfileImageUrl, AboutText } from "../../data/Data";
 
 export default function About() {
   return (

@@ -20,27 +20,8 @@ code {
     monospace;
 }
 
-.main-page {
-  
-}
-
-.certification-card {
-
-}
-
-.image-container {
-  
-}
-
-.proj
-
 .App {
   text-align: center;
-}
-
-.profile-img {
-  max-width: 75%;
-  height: auto;
 }
 
 .card {
@@ -57,29 +38,6 @@ code {
 .card:hover {
   background-color: rgb(233, 236, 239) !important;
   transform: scale(1.05);
-}
-
-.nav-item {
-  display: inline-block;
-  position: relative;
-}
-
-.nav-item:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #282c34;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.nav-item:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 .logo {

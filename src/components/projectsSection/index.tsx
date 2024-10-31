@@ -1,8 +1,8 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
-import Section from "../components/Section";
-import ProjectCard from "../components/ProjectCard";
-import ISectionCard from "../interfaces/ISectionCard";
+import Section from "../../components/section";
+import ProjectCard from "./projectCard";
+import ISectionCard from "../../interfaces/ISectionCard";
 
 export default function Projects({ cards }: { cards?: ISectionCard[] }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../components/Section";
-import SkillsImage from "../components/SkillsImage";
-import ImageContainer from "../components/ImageContainer";
+import Section from "../../components/section";
+import SkillsImage from "./skillsImage";
+import ImageContainer from "../../components/imageContainer";
 
 export default function Skills({
   imageUrls

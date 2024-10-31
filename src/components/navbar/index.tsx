@@ -1,12 +1,13 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import classes from "./style.module.scss";
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light navbar-light">
         <div className="container">
-          <a href="#" className="navbar-brand nav-item">
+          <a href="#" className={`${classes.navItem}  navbar-brand`}>
             Ibrahim El Nemr | Portfolio
           </a>
 
@@ -21,32 +22,35 @@ export default function Navbar() {
 
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a href="#about" className="nav-link nav-item">
+              <li className={classes.navItem}>
+                <a href="#about" className={`${classes.navItem} nav-link`}>
                   About
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a href="#projects" className="nav-link nav-item">
+              <li className={classes.navItem}>
+                <a href="#projects" className={`${classes.navItem} nav-link`}>
                   Projects
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a href="#skills" className="nav-link nav-item">
+              <li className={classes.navItem}>
+                <a href="#skills" className={`${classes.navItem} nav-link`}>
                   Skills
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a href="#certifications" className="nav-link nav-item">
+              <li className={classes.navItem}>
+                <a
+                  href="#certifications"
+                  className={`${classes.navItem} nav-link`}
+                >
                   Certifications
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a href="#contact" className="nav-link nav-item">
+              <li className={classes.navItem}>
+                <a href="#contact" className={`${classes.navItem} nav-link`}>
                   Contact
                 </a>
               </li>

@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../components/Section";
-import CertificationCard from "../components/CertificationCard";
-import ISectionCard from "../interfaces/ISectionCard";
+import Section from "../../components/section";
+import CertificationCard from "./certificationCard";
+import ISectionCard from "../../interfaces/ISectionCard";
 
 export default function Certifications({ cards }: { cards?: ISectionCard[] }) {
   return (
