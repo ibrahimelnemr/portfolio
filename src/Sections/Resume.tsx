@@ -1,9 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-interface ResumeProps {}
-
-const Resume: React.FunctionComponent<ResumeProps> = () => {
+export default function Resume () {
   return (
     <>
       <Row id="resume" className="p-0 m-0">
@@ -14,5 +12,3 @@ const Resume: React.FunctionComponent<ResumeProps> = () => {
     </>
   );
 };
-
-export default Resume;

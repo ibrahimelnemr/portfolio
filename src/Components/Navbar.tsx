@@ -1,12 +1,10 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-interface NavbarProps {}
-
-const Navbar: React.FunctionComponent<NavbarProps> = () => {
+export default function Navbar() {
   return (
     <>
-    <Row>
+      <Row>
         <nav className="navbar navbar-expand-lg bg-light navbar-light">
           <div className="container">
             <a href="#" className="navbar-brand nav-item">
@@ -66,5 +64,3 @@ const Navbar: React.FunctionComponent<NavbarProps> = () => {
     </>
   );
 }
-
-export default Navbar;

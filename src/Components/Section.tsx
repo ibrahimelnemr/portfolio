@@ -2,18 +2,17 @@ import React, { ReactNode } from "react";
 import { Row, Col } from "react-bootstrap";
 import SectionTitle from "./SectionTitle";
 
-interface SectionProps {
+export default function Section({
+  children,
+  sectionName,
+}: {
   children: ReactNode;
   sectionName: string;
-}
-
-const Section: React.FC<SectionProps> = (props) => {
+}) {
   return (
-      <Row className="p-5 m-0 bg-light g-4">
-        <SectionTitle sectionName={props.sectionName} />
-        {props.children}
-      </Row>
+    <Row className="p-5 m-0 bg-light g-4">
+      <SectionTitle sectionName={sectionName} />
+      {children}
+    </Row>
   );
-};
-
-export default Section;
+}
