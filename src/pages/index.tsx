@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 import About from "../sections/About";
 import Projects from "../sections/Projects";
 import Skills from "../sections/Skills";
@@ -24,6 +25,12 @@ export default function MainPage({
   projectCards: any[];
   certificationCards: any[];
 }) {
+  useEffect(() => {
+    // ensure typeof document is not undefined when importing bootstrap js
+    if (typeof document !== undefined) {
+      require("bootstrap/dist/js/bootstrap");
+    }
+  }, []);
 
   return (
     <main
