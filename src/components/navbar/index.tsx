@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import classes from "./style.module.scss";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -23,36 +24,39 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className={classes.navItem}>
-                <a href="#about" className={`${classes.navItem} nav-link`}>
+                <Link href="/about" className={`${classes.navItem} nav-link`}>
                   About
-                </a>
+                </Link>
               </li>
 
               <li className={classes.navItem}>
-                <a href="#projects" className={`${classes.navItem} nav-link`}>
+                <Link
+                  href="/projects"
+                  className={`${classes.navItem} nav-link`}
+                >
                   Projects
-                </a>
+                </Link>
               </li>
 
               <li className={classes.navItem}>
-                <a href="#skills" className={`${classes.navItem} nav-link`}>
+                <Link href="/skills" className={`${classes.navItem} nav-link`}>
                   Skills
-                </a>
+                </Link>
               </li>
 
               <li className={classes.navItem}>
-                <a
-                  href="#certifications"
+                <Link
+                  href="/certifications"
                   className={`${classes.navItem} nav-link`}
                 >
                   Certifications
-                </a>
+                </Link>
               </li>
 
               <li className={classes.navItem}>
-                <a href="#contact" className={`${classes.navItem} nav-link`}>
+                <Link href="/contact" className={`${classes.navItem} nav-link`}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

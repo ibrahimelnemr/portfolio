@@ -43,7 +43,7 @@ export default function Contact() {
             </a>
           </div>
         </Col>
-        {/* <Col xs={12}>
+        <Col xs={12}>
           <div className="text-center p-2 mb-5 m-2 fs-4 fw-light">
             {ContactText}
             <br />
@@ -51,7 +51,7 @@ export default function Contact() {
             You can also reach me via email at{" "}
             <a href={"mailto:" + ContactEmail}>{ContactEmail}</a>
           </div>
-        </Col> */}
+        </Col>
       </Section>
     </>
   );
