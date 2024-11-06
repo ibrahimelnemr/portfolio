@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import { Row, Col } from "react-bootstrap";
 import SectionTitle from "./sectionTitle";
 
 export default function Section({
@@ -10,9 +9,9 @@ export default function Section({
   sectionName: string;
 }) {
   return (
-    <Row className="p-5 m-0 bg-light g-4">
+    <section className="p-10 bg-gray-100 animate-fadeIn min-h-[40vh]">
       <SectionTitle sectionName={sectionName} />
-      {children}
-    </Row>
+      <div className="grid grid-cols-1 gap-8 mt-4">{children}</div>
+    </section>
   );
 }

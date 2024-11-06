@@ -1,67 +1,38 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
-import classes from "./style.module.scss";
 import Link from "next/link";
+import NavbarLink from "./navbarLink";
+import { CornerText } from "../../data/Data";
 
 export default function Navbar() {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light">
-        <div className="container">
-          <a href="#" className={`${classes.navItem}  navbar-brand`}>
-            Ibrahim El Nemr | Portfolio
-          </a>
+    <nav className="bg-gray-100 border-b border-gray-200 shadow-sm">
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <a href="#" className="text-lg font-extralight text-gray-700">
+          { CornerText }
+        </a>
 
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+        <button
+          className="lg:hidden text-gray-600 focus:outline-none"
+          type="button"
+          aria-label="Toggle navigation"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span className="material-icons">menu</span>
+        </button>
 
-          <div className="collapse navbar-collapse" id="navmenu">
-            <ul className="navbar-nav ms-auto">
-              <li className={classes.navItem}>
-                <Link href="/about" className={`${classes.navItem} nav-link`}>
-                  About
-                </Link>
-              </li>
+        <div className="hidden lg:flex space-x-8">
+          <NavbarLink href="/about" pageName="About" />
 
-              <li className={classes.navItem}>
-                <Link
-                  href="/projects"
-                  className={`${classes.navItem} nav-link`}
-                >
-                  Projects
-                </Link>
-              </li>
+          <NavbarLink href="/projects" pageName="Projects" />
 
-              <li className={classes.navItem}>
-                <Link href="/skills" className={`${classes.navItem} nav-link`}>
-                  Skills
-                </Link>
-              </li>
+          <NavbarLink href="/skills" pageName="Skills" />
 
-              <li className={classes.navItem}>
-                <Link
-                  href="/certifications"
-                  className={`${classes.navItem} nav-link`}
-                >
-                  Certifications
-                </Link>
-              </li>
+          <NavbarLink href="/certifications" pageName="Certifications" />
 
-              <li className={classes.navItem}>
-                <Link href="/contact" className={`${classes.navItem} nav-link`}>
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <NavbarLink href="/contact" pageName="Contact" />
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 }

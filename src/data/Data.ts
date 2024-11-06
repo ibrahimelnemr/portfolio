@@ -67,6 +67,8 @@ const ProfileImageUrl = "/images/profile.jpg";
 const AboutText =
   "Hi! I'm Ibrahim and I am currently doing undergraduate studies at the American University in Cairo. I am passionate about full-stack development and currently looking for opportunities in the industry.";
 
+const CornerText = "Ibrahim El Nemr | Portfolio";
+
 const LinkedInUrl = "https://www.linkedin.com/in/ibrahimelnemr/";
 
 const GithubUrl = "https://github.com/ibrahimelnemr/";
@@ -85,6 +87,7 @@ export {
   GithubLogoUrl,
   LinkedInLogoUrl,
   LinkedInUrl,
+  CornerText,
   GithubUrl,
   ContactText,
   ContactEmail,

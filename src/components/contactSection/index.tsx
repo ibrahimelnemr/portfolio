@@ -1,3 +1,4 @@
+// components/contactSection/Contact.tsx
 import React from "react";
 import {
   GithubLogoUrl,
@@ -8,51 +9,47 @@ import {
   ContactEmail,
 } from "../../data/Data";
 import Section from "../../components/section";
-import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
 
-export default function Contact() {
+const Contact: React.FC = () => {
   return (
-    <>
-      <Section sectionName="Contact">
-        <Col
-          xs={12}
-          className="text-center d-flex align-items-center justify-content-center"
-        >
-          <div className="mx-3">
-            <a href={LinkedInUrl} target="_blank">
-              <Image
-                className="img-fluid contact-logo"
-                src={LinkedInLogoUrl}
-                alt=""
-                height={50}
-                width={50}
-              />
-            </a>
-          </div>
+    <Section sectionName="Contact">
+      <div className="flex justify-center items-center space-x-6 mb-6">
+        {/* LinkedIn Icon */}
+        <a href={LinkedInUrl} target="_blank" className="mx-3">
+          <Image
+            className="contact-logo"
+            src={LinkedInLogoUrl}
+            alt="LinkedIn"
+            width={50}
+            height={50}
+          />
+        </a>
 
-          <div className="mx-3">
-            <a href={GithubUrl} target="_blank">
-              <Image
-                className="img-fluid contact-logo"
-                src={GithubLogoUrl}
-                alt=""
-                height={50}
-                width={50}
-              />
-            </a>
-          </div>
-        </Col>
-        <Col xs={12}>
-          <div className="text-center p-2 mb-5 m-2 fs-4 fw-light">
-            {ContactText}
-            <br />
-            <br />
-            You can also reach me via email at{" "}
-            <a href={"mailto:" + ContactEmail}>{ContactEmail}</a>
-          </div>
-        </Col>
-      </Section>
-    </>
+        {/* Github Icon */}
+        <a href={GithubUrl} target="_blank" className="mx-3">
+          <Image
+            className="contact-logo"
+            src={GithubLogoUrl}
+            alt="Github"
+            width={50}
+            height={50}
+          />
+        </a>
+      </div>
+
+      {/* Contact Text */}
+      <div className="text-center p-4 mb-5 text-xl font-light">
+        <p>{ContactText}</p>
+        <p>
+          You can also reach me via email at{" "}
+          <a href={"mailto:" + ContactEmail} className="text-blue-600">
+            {ContactEmail}
+          </a>
+        </p>
+      </div>
+    </Section>
   );
-}
+};
+
+export default Contact;

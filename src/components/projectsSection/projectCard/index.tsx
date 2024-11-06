@@ -1,36 +1,31 @@
+// components/projectCard/ProjectCard.tsx
 import React from "react";
-import { Row, Col, Card } from "react-bootstrap";
+import ISectionCard from "../../../interfaces/ISectionCard";
 
-export default function ProjectCard({
-  cardTitle,
-  cardText,
-  githubLink,
-  key,
-}: {
-  cardTitle: string;
-  cardText: string;
-  githubLink: string;
-  key: number;
-}) {
+const ProjectCard: React.FC<ISectionCard> = ({
+  title,
+  text = "",
+  link = "",
+  linkText = "View on GitHub",
+  isGithubLink = false, 
+}) => {
   return (
-    <Col sm={12} md={6} lg={6}>
-      <Card
-        className="shadow-lg p-3 mb-5 rounded bg-light text-dark border"
-        key={key}
-      >
-        <Card.Body>
-          <div className="h1 mb-3"></div>
-          <h3 className="card-title mb-3">{cardTitle}</h3>
-          <p className="card-text">{cardText}</p>
-          <a
-            href={githubLink}
-            target="_blank"
-            className="btn btn-outline-secondary"
-          >
-            <i className="fab fa-github"></i> View on Github
-          </a>
-        </Card.Body>
-      </Card>
-    </Col>
+    <div className="lg:w-1/2 md:w-1/2 sm:w-full p-4">
+      <div className="bg-gray-100 shadow-lg rounded-lg p-5 mb-5 border border-gray-200">
+        <h3 className="text-2xl font-extralight mb-3">{title}</h3>
+        <p className="text-gray-700 mb-3">{text}</p>
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`inline-block py-2 px-4 rounded-md bg-gray-500 text-white hover:bg-gray-700`}
+        >
+          <i className={`fab fa-github ${isGithubLink ? "mr-2" : ""}`}></i>
+          {linkText}
+        </a>
+      </div>
+    </div>
   );
-}
+};
+
+export default ProjectCard;

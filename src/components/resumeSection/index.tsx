@@ -1,14 +1,14 @@
+// components/resumeSection/Resume.tsx
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 
-export default function Resume () {
+const Resume: React.FC = () => {
   return (
-    <>
-      <Row id="resume" className="p-0 m-0">
-        <Col xs={12}>
-          <div className="text-center p-2 m-2 display-4">Resume</div>
-        </Col>
-      </Row>
-    </>
+    <section id="resume" className="py-8">
+      <div className="text-center mb-6">
+        <h2 className="text-4xl font-semibold">Resume</h2>
+      </div>
+    </section>
   );
 };
+
+export default Resume;
