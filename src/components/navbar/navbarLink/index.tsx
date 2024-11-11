@@ -9,7 +9,7 @@ export default function NavbarLink({
   pageName: string;
 }) {
   return (
-    <Link href={href} className="text-gray-600 hover:text-gray-900 font-extralight">
+    <Link href={href} className="text-gray-400 hover:text-gray-600 font-extralight">
       {pageName}
     </Link>
   );
