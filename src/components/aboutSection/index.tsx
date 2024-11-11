@@ -18,7 +18,7 @@ export default function About() {
         </div>
         
         <div className="text-center lg:text-left lg:w-2/3">
-          <p className="text-xl lg:text-2xl font-extralight text-gray-700 mx-5 lg:mx-0">
+          <p className="text-xl lg:text-2xl mx-5 lg:mx-0">
             {AboutText}
           </p>
         </div>

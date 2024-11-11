@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
+import ParticlesBackground from "../../components/particleBackground";
 
 type BaseLayoutProps = {
   children: ReactNode;
@@ -9,8 +10,9 @@ type BaseLayoutProps = {
 export default function BaseLayout({ children }: BaseLayoutProps) {
   return (
     <>
+      <ParticlesBackground />
       <Navbar />
-      <main className="flex-grow flex flex-col p-0 bg-gray-100">
+      <main className="relative flex-grow flex flex-col p-0">
         {children}
       </main>
       <Footer />
