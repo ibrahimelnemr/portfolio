@@ -65,7 +65,7 @@ const LinkedInLogoUrl = "/images/linkedin.png";
 const ProfileImageUrl = "/images/profile.jpg";
 
 const AboutText =
-  "Hi! I'm Ibrahim and I am currently doing undergraduate studies at the American University in Cairo. I am passionate about full-stack development and currently looking for opportunities in the industry.";
+  "Hi! I'm Ibrahim and I a fresh graduate from the American University in Cairo. I am passionate about full-stack development and currently looking for opportunities in the industry.";
 
 const CornerText = "Ibrahim El Nemr | Portfolio";
 
