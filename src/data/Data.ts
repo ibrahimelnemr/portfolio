@@ -7,9 +7,19 @@ const ProjectCards: ISectionCard[] = [
     link: "https://github.com/ibrahimelnemr/property-finder-db",
   },
   {
-    title: "Syllabus Analysis Query Tool",
-    text: "A demo database query tool for course syllabi and the skills associated each course, as a tool intended for undergraduate students. Created with Angular, Postgresql, and Express.",
-    link: "https://github.com/ibrahimelnemr/syllabus-analysis-query-tool",
+    title: "Flutter Ecommerce App Demo",
+    text: "Built a full-stack Flutter application as a demo for an ecommerce app. Used Node.js, TypeScript and MongoDB on the backend. Tested API routes using postman and documented API endpoints. Created app prototype using Figma and implemented design with Flutter. Deployed Node.js backend to Elastic Beanstalk",
+    link: "https://github.com/ibrahimelnemr/flutter-ecommerce-app-demo",
+  },
+  {
+    title: "Arabize - Arabic Transliterator",
+    text: "Arabic transliteration web tool for transliteration of arabic text into latin characters with options for diacritics and non-diacritics.",
+    link: "https://github.com/ibrahimelnemr/arabic-transliterator",
+  },
+  {
+    title: "iOS Alarm Clock App",
+    text: "Modified version of default iOS alarm clock app including added features such as repeat interval alarms.",
+    link: "https://github.com/ibrahimelnemr/ios-alarm-clock-app",
   },
 ];
 
@@ -24,13 +34,14 @@ const CertificationCards: ISectionCard[] = [
     link: "https://graduation.udacity.com/confirm/PJ42XA24",
   },
   {
-    title: "Meta Django Web Framework Certification",
+    title: "Udacity iOS Developer Nanodegree",
     bulletPoints: [
-      "Implement the HTTP request response cycle by creating views, routes and templates.",
-      "Used JavaScript for dynamically creating UI for a landing page",
-      "Describe and build a data model to create database tables and dynamic web forms.",
+      "Created a CLI based Swift application for recording tasks",
+      "Implemented a SwiftUI-based application to countdown events",
+      "Learned SwiftData framework by creating an application to manage recipes",
+      "Learned API access and user authentication by building a travel journal app"
     ],
-    link: "https://www.coursera.org/account/accomplishments/certificate/6RXT3N82AMWS",
+    link: "https://www.udacity.com/certificate/e/3bf5fb20-6076-11ee-8e55-c77aaa96a8c4",
   },
   {
     title: "Udacity Full-Stack JavaScript Certification",
