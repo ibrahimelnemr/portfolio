@@ -11,9 +11,9 @@ const CertificationCard: React.FC<ISectionCard> = ({
 }) => {
   return (
     <div className="lg:w-1/2 md:w-1/2 sm:w-full p-4">
-      <div className="bg-gray-100 shadow-lg rounded-lg p-5 mb-5 border border-gray-200">
+      <div className="bg-gray-800 shadow-lg rounded-lg p-5 mb-5">
         <h3 className="text-2xl font-extralight mb-3">{title}</h3>
-        <ul className="list-disc pl-5 text-gray-700">
+        <ul className="list-disc pl-5">
           {bulletPoints.map((bulletPoint, index) => (
             <li key={index}>{bulletPoint}</li>
           ))}

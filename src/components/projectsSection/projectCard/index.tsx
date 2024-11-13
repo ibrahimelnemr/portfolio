@@ -11,9 +11,9 @@ const ProjectCard: React.FC<ISectionCard> = ({
 }) => {
   return (
     <div className="lg:w-1/2 md:w-1/2 sm:w-full p-4">
-      <div className="bg-gray-100 shadow-lg rounded-lg p-5 mb-5 border border-gray-200">
+      <div className="bg-gray-800 shadow-lg rounded-lg p-5 mb-5">
         <h3 className="text-2xl font-extralight mb-3">{title}</h3>
-        <p className="text-gray-700 mb-3">{text}</p>
+        <p className="mb-3">{text}</p>
         <a
           href={link}
           target="_blank"
