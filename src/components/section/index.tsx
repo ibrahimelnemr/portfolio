@@ -9,7 +9,7 @@ export default function Section({
   sectionName: string;
 }) {
   return (
-    <section className="p-10 animate-fadeIn min-h-[40vh] font-extralight text-gray-400">
+    <section className="p-10 animate-fadeInUp min-h-[40vh] font-extralight text-gray-400">
       <SectionTitle sectionName={sectionName} />
       <div className="grid grid-cols-1 gap-8 mt-4">{children}</div>
     </section>
