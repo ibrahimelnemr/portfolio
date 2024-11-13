@@ -1,36 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import NavbarLink from "./navbarLink";
 import { CornerText } from "../../data/Data";
+import HamburgerMenu from "../hamburgerMenu";
 
 export default function Navbar() {
+  const navbarItems: { name: string; url: string }[] = [
+    { name: "About", url: "/about" },
+    { name: "Projects", url: "/projects" },
+    { name: "Skills", url: "/skills" },
+    { name: "Certifications", url: "/certifications" },
+    { name: "Contact", url: "/contact" },
+  ];
+
   return (
     <nav className="relative">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <a href="#" className="text-lg font-extralight text-gray-400">
-          { CornerText }
+          {CornerText}
         </a>
-
-        <button
-          className="lg:hidden text-gray-600 focus:outline-none"
-          type="button"
-          aria-label="Toggle navigation"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span className="material-icons">menu</span>
-        </button>
-
+        <HamburgerMenu navItems={navbarItems} />
         <div className="hidden lg:flex space-x-8">
-          <NavbarLink href="/about" pageName="About" />
-
-          <NavbarLink href="/projects" pageName="Projects" />
-
-          <NavbarLink href="/skills" pageName="Skills" />
-
-          <NavbarLink href="/certifications" pageName="Certifications" />
-
-          <NavbarLink href="/contact" pageName="Contact" />
+          {Object.values(navbarItems).map((item, index) => (
+            <div key={index}>
+              <NavbarLink href={item.url} pageName={item.name} />
+            </div>
+          ))}
         </div>
       </div>
     </nav>

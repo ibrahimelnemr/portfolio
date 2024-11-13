@@ -27,3 +27,5 @@ yarn-error.log*
 
 # Next.js static and output directories
 /public/static
+
+TODO.md

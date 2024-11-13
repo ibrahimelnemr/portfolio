@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         backgroundPrimary: '#0a0f25',
+        textPrimary: '#4B5563'
       },
       animation: {
         fadeInUp: "fadeInUp 1s ease-out",  
