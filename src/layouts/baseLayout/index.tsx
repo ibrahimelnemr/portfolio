@@ -9,13 +9,13 @@ type BaseLayoutProps = {
 
 export default function BaseLayout({ children }: BaseLayoutProps) {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <ParticlesBackground />
       <Navbar />
-      <main className="relative flex-grow flex flex-col p-0">
+      <main className="relative flex-grow">
         {children}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

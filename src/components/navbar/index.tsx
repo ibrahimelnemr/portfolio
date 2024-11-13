@@ -5,7 +5,7 @@ import { CornerText } from "../../data/Data";
 
 export default function Navbar() {
   return (
-    <nav className="relative shadow-sm">
+    <nav className="relative">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <a href="#" className="text-lg font-extralight text-gray-400">
           { CornerText }
