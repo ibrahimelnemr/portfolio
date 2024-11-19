@@ -4,12 +4,14 @@ import Link from "next/link";
 export default function NavbarLink({
   href,
   pageName,
+  className
 }: {
   href: string;
   pageName: string;
+  className?: string;
 }) {
   return (
-    <Link href={href} className="text-gray-400 hover:text-gray-600 font-extralight     block text-lg text-gray-300 hover:text-white transition-colors duration-200">
+    <Link href={href} className={className}>
       {pageName}
     </Link>
   );

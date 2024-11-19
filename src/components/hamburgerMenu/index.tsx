@@ -9,7 +9,7 @@ export default function HamburgerMenu({
   const [navbarExpanded, setNavbarExpanded] = useState<boolean>(false);
 
   return (
-    <div className="relative">
+    <div className="relative z-50">
       <button
         className="flex flex-col justify-center items-center space-y-1 lg:hidden focus:outline-none"
         onClick={() => setNavbarExpanded(!navbarExpanded)}
@@ -33,7 +33,7 @@ export default function HamburgerMenu({
       </button>
 
       <div
-        className={`absolute top-14 right-4 bg-gray-800 text-white rounded-lg shadow-lg transform transition-all duration-300 z-50 ${
+        className={`absolute top-14 right-4 bg-gray-800 text-white rounded-lg shadow-lg transform transition-all duration-300 ${
           navbarExpanded ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
         }`}
       >
@@ -43,6 +43,7 @@ export default function HamburgerMenu({
               <NavbarLink
                 href={item.url}
                 pageName={item.name}
+                className="block text-lg text-gray-300 hover:text-white transition-colors duration-200"
               />
             </li>
           ))}

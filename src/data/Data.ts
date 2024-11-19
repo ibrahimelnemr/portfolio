@@ -58,7 +58,7 @@ const CertificationCards: ISectionCard[] = [
 const SkillsImagesUrls = [
   "/images/postgresql_logo.png",
   "/images/angular_logo.png",
-  "/images/express.png",
+  // "/images/express.png",
   "/images/node2.png",
   "/images/django_logo3.png",
   "/images/sql.png",
