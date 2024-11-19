@@ -43,7 +43,6 @@ export default function HamburgerMenu({
               <NavbarLink
                 href={item.url}
                 pageName={item.name}
-                className="text-gray-300 hover:text-white transition-colors duration-200"
               />
             </li>
           ))}

@@ -3,15 +3,13 @@ import Link from "next/link";
 
 export default function NavbarLink({
   href,
-  pageName,
-  className
+  pageName
 }: {
   href: string;
   pageName: string;
-  className?: string;
 }) {
   return (
-    <Link href={href} className={className}>
+    <Link href={href} className={`text-gray-400 hover:text-gray-600 font-extralight`}>
       {pageName}
     </Link>
   );
