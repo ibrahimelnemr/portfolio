@@ -9,9 +9,9 @@ export default function HamburgerMenu({
   const [navbarExpanded, setNavbarExpanded] = useState<boolean>(false);
 
   return (
-    <div className="relative z-50">
+    <div className="relative">
       <button
-        className="flex flex-col justify-center items-center space-y-1 lg:hidden focus:outline-none"
+        className="flex flex-col justify-center items-center space-y-1 lg:hidden focus:outline-none z-50"
         onClick={() => setNavbarExpanded(!navbarExpanded)}
         aria-label="Toggle Menu"
       >
@@ -33,17 +33,17 @@ export default function HamburgerMenu({
       </button>
 
       <div
-        className={`absolute top-14 right-4 bg-gray-800 text-white rounded-lg shadow-lg transform transition-all duration-300 ${
+        className={`fixed inset-0 bg-gray-900 bg-opacity-95 text-white flex flex-col items-center justify-center transform transition-all duration-300 z-50 ${
           navbarExpanded ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
         }`}
       >
-        <ul className="flex flex-col space-y-4 p-4">
+        <ul className="flex flex-col space-y-6 text-lg">
           {Object.values(navItems).map((item, index) => (
             <li key={index}>
               <NavbarLink
                 href={item.url}
                 pageName={item.name}
-                className="block text-lg text-gray-300 hover:text-white transition-colors duration-200"
+                className="text-gray-300 hover:text-white transition-colors duration-200"
               />
             </li>
           ))}
