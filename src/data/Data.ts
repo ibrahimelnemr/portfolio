@@ -55,6 +55,8 @@ const CertificationCards: ISectionCard[] = [
   },
 ];
 
+const publicAsset = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${path}`;
+
 const SkillsImagesUrls = [
   "/images/postgresql_logo.png",
   "/images/angular_logo.png",
@@ -68,12 +70,12 @@ const SkillsImagesUrls = [
   "/images/javascript.png",
   "/images/typescript2.png",
   "/images/cpp2.png",
-];
+].map(publicAsset);
 
-const GithubLogoUrl = "/images/github2.png";
-const LinkedInLogoUrl = "/images/linkedin.png";
+const GithubLogoUrl = publicAsset("/images/github2.png");
+const LinkedInLogoUrl = publicAsset("/images/linkedin.png");
 
-const ProfileImageUrl = "/images/profile.jpg";
+const ProfileImageUrl = publicAsset("/images/profile.jpg");
 
 const AboutText =
   "Hi! I'm Ibrahim and I a fresh graduate from the American University in Cairo. I am passionate about full-stack development and currently looking for opportunities in the industry.";

@@ -13,6 +13,8 @@
 /dist
 .next
 .out
+/out
+*.tsbuildinfo
 
 # misc
 .DS_Store
