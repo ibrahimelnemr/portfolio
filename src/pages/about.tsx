@@ -1,11 +1,5 @@
-import React from "react";
-import BaseLayout from "../layouts/baseLayout";
-import About from "../components/aboutSection";
+import Portfolio from "../components/portfolio";
 
-export default function AboutPage() {
-  return (
-    <BaseLayout>
-      <About />
-    </BaseLayout>
-  );
+export default function Page() {
+  return <Portfolio initialSection="about" />;
 }

@@ -1,11 +1,5 @@
-import React from "react";
-import BaseLayout from "../layouts/baseLayout";
-import Contact from "../components/contactSection";
+import Portfolio from "../components/portfolio";
 
-export default function ContactPage() {
-  return (
-    <BaseLayout>
-      <Contact />
-    </BaseLayout>
-  );
+export default function Page() {
+  return <Portfolio initialSection="contact" />;
 }
