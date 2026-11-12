@@ -1,7 +1,6 @@
 export const profile = {
   name: "Ibrahim El Nemr",
   title: "Software Engineer",
-  location: "Cairo, Egypt",
   bio: "Hi, I’m Ibrahim. I’m a software engineer passionate about building full-stack applications, AI-powered tools, and mobile apps.",
   avatar: "https://github.com/ibrahimelnemr.png?size=512",
   github: "https://github.com/ibrahimelnemr",

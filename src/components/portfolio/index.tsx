@@ -104,7 +104,6 @@ export default function Portfolio({
 }) {
   const router = useRouter();
   const [active, setActive] = useState("about");
-  const [paused, setPaused] = useState(false);
   const requestedSection = useRef(false);
   const navigation = useRef<HTMLElement>(null);
   const navigationTarget = useRef<string | null>(null);
@@ -249,20 +248,11 @@ export default function Portfolio({
       <a className="skip-link" href="#resume-content">
         Skip to content
       </a>
-      <ParticlesBackground paused={paused} />
+      <ParticlesBackground />
       <div className="ambient-light" aria-hidden="true" />
       <div className="page-layout">
         <aside className="section-nav">
-          <a
-            className="nav-brand"
-            href="#about"
-            aria-label="Ibrahim El Nemr, about"
-          >
-            ie<span>.</span>
-          </a>
-          <p className="nav-caption">
-            Ibrahim El Nemr<span>Software Engineer</span>
-          </p>
+          <p className="nav-caption">Ibrahim El Nemr</p>
           <nav ref={navigation} aria-label="Page sections">
             <ol>
               {sections.map((section, index) => (
@@ -288,28 +278,13 @@ export default function Portfolio({
               ))}
             </ol>
           </nav>
-          <div className="nav-bottom">
-            <span className="location">
-              <i />
-              {profile.location}
-            </span>
-            <button
-              type="button"
-              className="motion-button"
-              aria-pressed={paused}
-              onClick={() => setPaused(!paused)}
-            >
-              {paused ? "Resume animation" : "Pause animation"}
-            </button>
-          </div>
         </aside>
         <main className="resume-content" id="resume-content">
           <section className="intro" id="about" aria-labelledby="about-title">
-            <div className="intro-top">
-              <span className="intro-label">
-                <span />
-                {profile.title}
-              </span>
+            <div className="intro-heading">
+              <h1 id="about-title">
+                Ibrahim <span>El Nemr.</span>
+              </h1>
               <img
                 className="profile-photo"
                 src={profile.avatar}
@@ -318,9 +293,6 @@ export default function Portfolio({
                 height="104"
               />
             </div>
-            <h1 id="about-title">
-              Ibrahim <span>El Nemr.</span>
-            </h1>
             <p className="intro-bio">{profile.bio}</p>
             <div className="intro-links">
               <ExternalLink href={profile.github}>
